@@ -8,13 +8,9 @@ module.exports = {
     commonjs: true,
     es6: true,
     node: true,
-    'vue/setup-compiler-macros': true
   },
   extends: [
-    'plugin:vue/vue3-recommended',
     'eslint:recommended',
-    '@vue/eslint-config-typescript/recommended',
-    '@vue/eslint-config-prettier'
   ],
   rules: {
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
@@ -24,8 +20,6 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-var-requires': 'off',
-    'vue/require-default-prop': 'off',
-    'vue/multi-word-component-names': 'off'
   },
   overrides: [
     {

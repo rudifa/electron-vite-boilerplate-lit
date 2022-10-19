@@ -63,3 +63,7 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+### See also
+
+[README2](./README2.md)

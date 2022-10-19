@@ -1,5 +1,6 @@
+import { svg } from 'lit'
+export const heroLogo = svg` 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <symbol id="electron" viewBox="0 0 900 300">
     <g fill="none" fill-rule="evenodd">
       <g class="hero-apps" style="fill: #71abb7;">
         <path d="M15 138l-4.9-.64L8 133l-2.1 4.36L1 138l3.6 3.26-.93 4.74L8 143.67l4.33 2.33-.93-4.74z"></path>
@@ -30,5 +31,5 @@
         <path d="M443.2374 165.3634c-5.432 1.17-10.7838-2.2712-11.9598-7.686-1.1714-5.415 2.2785-10.7498 7.7106-11.922 5.432-1.17 10.7838 2.2712 11.9598 7.686 1.1737 5.415-2.2785 10.7498-7.7106 11.922z"></path>
       </g>
     </g>
-  </symbol>
 </svg>
+`

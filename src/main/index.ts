@@ -6,7 +6,7 @@ function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 900,
-    height: 670,
+    height: 700,
     show: false,
     autoHideMenuBar: true,
     ...(process.platform === 'linux'
@@ -22,6 +22,7 @@ function createWindow(): void {
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
+    //mainWindow.webContents.openDevTools({ mode: 'detach' }) // use F12 to open devtools
   })
 
   mainWindow.webContents.setWindowOpenHandler((details) => {

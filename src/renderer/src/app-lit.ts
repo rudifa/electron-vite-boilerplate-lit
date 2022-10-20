@@ -2,8 +2,8 @@ import { html, LitElement } from 'lit'
 import { styleSheet } from './assets/css/styles.js'
 import { heroLogo } from './assets/icons.js'
 
-import { VersionsLit } from './components/versions-lit.js'
-import { HelloLit } from './components/hello-lit.js'
+import './components/versions-lit.js'
+import './components/hello-lit.js'
 
 const appHtml = html`
   <div id="app">

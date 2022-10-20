@@ -1,4 +1,4 @@
-# electron-app
+# An Electron application built with electron-vite, Lit and Typescript
 
 ![electron version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron)
 ![electron vite version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron-vite)
@@ -7,7 +7,20 @@
 ![vue version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/vue)
 ![typescript version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/typescript)
 
-> An Electron application with Vue3 and TypesSript
+
+This project started as a clone of [electron-vite-boilerplate](https://github.com/alex8088/electron-vite-boilerplate/tree/master/src/renderer/src) by [alex8088](https://github.com/alex8088).
+
+It was modified by [rudifa](https://github.com/rudifa), replacing the Vue dependencies and Vue components by Lit dependencies and Lit components.
+
+You can use this modified project as a template for building your own Electron applications using the [Lit](https://lit.dev/docs/) components.
+
+It was tested only on a Mac, with `npm run dev` and `npm run build:mac`.
+
+If you find any issues with this project, please report them.
+
+If you build and run the project on the Windows or the Linux platform, please report the success (or failure).
+
+![Screenshot](images/Screenshot_2022-10-19_20.17.54.jpg)
 
 ## Features
 
@@ -21,21 +34,10 @@
 - **💡 Development - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**, useful API, help you develop
 - **📦 Pack - [electron-builder](https://www.electron.build)**, pre-configured to pack your app
 
----
-
-- **📁 创建 - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**，快速构建项目
-  - 目前支持的框架： `Vue`, `React`, `Svelte`, `Solid`
-- **🚀 构建 - [electron-vite](https://github.com/alex8088/electron-vite)**，与 Vite 集成，快速且简单易用的构建工具
-  - [热替换 HMR](https://cn-evite.netlify.app/guide/hmr-in-renderer.html)
-  - [热重载](https://cn-evite.netlify.app/guide/hot-reloading.html)
-  - [易于调试](https://cn-evite.netlify.app/guide/debugging.html)
-  - [源代码保护](https://cn-evite.netlify.app/guide/source-code-protection.html)（编译为 V8 字节码以保护源代码）
-- **💡 开发 - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**，提供丰富实用 API，辅助开发
-- **📦 打包 - [electron-builder](https://www.electron.build)**，预置打包配置，轻松完成打包
 
 ## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [lit-plugin](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin)
 
 ## Project Setup
 
@@ -63,7 +65,3 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
-
-### See also
-
-[README2](./README2.md)

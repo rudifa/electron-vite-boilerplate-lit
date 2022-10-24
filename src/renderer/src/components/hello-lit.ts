@@ -1,7 +1,6 @@
-import { html, css, LitElement } from 'lit'
+import { html, LitElement } from 'lit'
 import { styleSheet } from '../assets/css/styles.js'
 
-const versions = { ...window.electron.process.versions }
 
 export class HelloLit extends LitElement {
   static styles = styleSheet
